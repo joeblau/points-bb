@@ -2,8 +2,9 @@
 pragma solidity ^0.8.13;
 
 import {Script, console2} from "forge-std/Script.sol";
+import { PointsBuyAndBurn } from "../src/PointsBuyAndBurn.sol";
 
-contract CounterScript is Script {
+contract PointsBuyAndBurnScript is Script {
     function setUp() public {}
 
     function run() public {
